@@ -34,3 +34,13 @@ btn.addEventListener("click", function(e){
   window.location.replace("new target URL");
   return false;
     });
+//neccesary when you are creating a client-side form handler
+//adding a querystring parameter for URL allows us to reference user state
+
+//making AJAX calls to secure services to return 401 status parameter redirecting user to logein address
+window.location.hash = "#!login";
+
+//redirecting to new page and storing token in indexedDB
+//changing value triggers browser load new URL
+window.location.href = myLoginURL;
+//allows user to login to STS & return app authenticated

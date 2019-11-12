@@ -1,0 +1,28 @@
+<html>
+  <header> <link rel="stylesheet" type="text/css" href="main.css">
+    </header>
+  <h>
+  <nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">About</a>
+    </li>
+    <li>
+      <a href="#projects">Work</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+</h>
+
+<div class="neon">
+  <span class="text" data-text="GreekUnderground">GreekUnderground</span>
+  <span class="gradient"></span>
+  <span class="spotlight"></span>
+  </div>
+
+<div>
+  </div>
+</html>
